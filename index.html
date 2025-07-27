@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>パリ究極の買い物リスト</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>パリ究極の買い物リスト</h1>
+    <p>グルメ・雑貨・キッチン用品のおすすめ100選</p>
+  </header>
+
+  <section id="filters">
+    <input type="text" id="searchInput" placeholder="キーワードで検索（店名・商品など）" />
+    <select id="categoryFilter">
+      <option value="">すべてのカテゴリ</option>
+      <option value="gourmet">グルメ</option>
+      <option value="kitchen">キッチン用品</option>
+      <option value="zakka">雑貨</option>
+    </select>
+    <select id="regionFilter">
+      <option value="">すべての地区</option>
+      <option value="1">1区</option>
+      <option value="2">2区</option>
+      <option value="3">3区</option>
+      <option value="4">4区</option>
+      <option value="5">5区</option>
+      <option value="6">6区</option>
+      <option value="7">7区</option>
+      <option value="8">8区</option>
+      <option value="9">9区</option>
+      <option value="10">10区</option>
+      <option value="11">11区</option>
+      <option value="12">12区</option>
+      <option value="13">13区</option>
+      <option value="14">14区</option>
+      <option value="15">15区</option>
+      <option value="16">16区</option>
+      <option value="17">17区</option>
+      <option value="18">18区</option>
+      <option value="19">19区</option>
+      <option value="20">20区</option>
+    </select>
+  </section>
+
+  <section id="results" class="grid"></section>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
